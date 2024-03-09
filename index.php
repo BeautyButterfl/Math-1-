@@ -1,36 +1,15 @@
-<html lang="en">
+<html>
 <head>
     <h1>Sheanne Cruz</h1>
- 
-<body>
-<?php
-<p>Addtion</p>
-$x = 20;  
-$x += 100;
-
-echo $x;
-
-$x = 50;
-$x -= 30;
-
-echo $x;
-
-$x = 5;
-$x *= 6;
-
-echo $x;
-
-$x = 10;
-$x /= 5;
-
-echo $x;
-
-$x = 15;
-$x %= 4;
-
-echo $x;
-?>
+    <p>ADET BSIT</p>    
 </head>
-<h2></h2>
+<body>
+
+<form action="Math.php" method="post">
+Input1: <input type="text" name="Input1"><br>
+Input2: <input type="text" name="Input2"><br>
+<input type="submit">
+</form> 
+
 </body>
 </html>
